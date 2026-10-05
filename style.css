@@ -603,7 +603,7 @@ body {
 .article-source a:hover { text-decoration: underline; }
 .article-source br { display: none; }
 .article-source .read-more {
-  display: inline-block; white-space: nowrap; float: right;
+  display: block; text-align: right; margin-top: 2mm;
   font-family: var(--ff-accent); font-size: 7.5pt; letter-spacing: 1.8px; text-transform: uppercase;
   color: var(--accent);
 }
